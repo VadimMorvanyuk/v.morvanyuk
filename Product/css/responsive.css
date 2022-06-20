@@ -1,0 +1,164 @@
+/* responsive*/
+@media (min-width: 1200px){
+    .for_page .container{
+        max-width: 1110px;
+    }
+    
+}
+@media (max-width: 1200px){
+    .nav-menu{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+    }
+    .responsive-menu .fa-bars{
+        font-size: 30px;
+    }
+    .sign{
+        display: flex;
+        justify-content: end;
+    }
+    .responsive-menu .fa-bars{
+        line-height: 44px;
+        margin-left: 18px;
+    }
+    .strategies .owl-carousel .owl-dots {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 991px){
+    .banner-text{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .banner-btn{
+        text-align: center;
+    }
+    .banner-img{
+        margin-top: 15px;
+        text-align: center;
+    }
+    .banner{
+        padding-bottom: 48px;
+    }
+    .management{
+        padding: 50px 0;
+    }
+    .products {
+        text-align: center;
+    }
+    .management-img{
+        display: none;
+    }
+    .management-text{
+        margin: 0 auto;
+        max-width: none;
+    }
+    .customer-img{
+        margin-bottom: 21px;
+    }
+    .customer-text p{
+        margin-top: 48px;
+    }
+    .customer{
+        padding-bottom: 35px;
+    }
+    .collaborative {
+        padding-bottom: 16px;
+    }
+    .collaborative-text{
+        max-width: none;
+    }
+    .strategies{
+        padding-top: 50px;
+        padding-bottom: 39px;
+    }
+    .price{
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .prices{
+        padding-bottom: 25px;
+    }
+    .clients{
+        padding-bottom: 30px;
+    }
+    .boost{
+        text-align:center;
+    }
+    .boost h1{
+        margin-top: 18px;
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding-top: 50px;
+    }
+    .mail-footer{
+        padding: 11px 15px;
+    }
+}
+@media (max-width: 767px){
+    .product-footer{
+        margin-bottom: 10px;
+    }
+    .signup-footer{
+        margin-left: 0;
+    }
+}
+@media (max-width: 576px){
+    .logo{
+        margin: 0 auto;
+    }
+    .sign{
+        justify-content: end;
+    }
+    .boost .container{
+        padding: 0 40px;
+    }
+    .signIn{
+        display: none;
+    }
+    .signUp{
+        display: none;
+    }
+    .theme{
+        display: none;
+    }
+}
+@media (max-width: 520px){
+    .customer-list p:nth-child(1)::before{
+        top: 5px;
+    }
+    .customer-list p:nth-child(2)::before{
+        top: 99px;
+    }
+    .customer-list p:nth-child(3)::before{
+        top: 190px;
+    }
+}
+@media (max-width: 450px){
+    .customer-list p:nth-child(3)::before{
+        top: 222px;
+    }
+}
+@media (max-width: 400px){
+    .bannerBtn{
+        padding: 15px 28px;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .help{
+        margin-bottom: 8px;
+    }
+    .help1 img{
+        margin-right: -1px;
+    }
+    .help2{
+        margin-bottom: 13px;
+    }
+    .help4 span{
+        font-size: 14px;
+    }
+}

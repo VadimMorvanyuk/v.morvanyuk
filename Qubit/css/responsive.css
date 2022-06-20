@@ -1,0 +1,170 @@
+@media (min-width: 1380px){
+    .for_page .container{
+        max-width: 1600px;
+    }   
+}
+@media (max-width: 1199px){
+    .header .registration{
+        flex-direction: column;
+    }
+    .btn-register{
+        margin-bottom: 5px;
+    }
+    .owl-carousel .fa-chevron-left{
+        display: none;
+    }
+    .owl-carousel .fa-chevron-right{
+        display: none;
+    }
+    .banner{
+        padding: 40px 0;
+    }
+    .banner .container{
+        padding: 0;
+    }
+    .product .product-list{
+        padding: 0 20px;
+    }
+    .for_page .page .industry .industry-container{
+        padding: 0 40px;
+    }
+    .for_page .page .industry .industry-container .row{
+        justify-content: center;
+    }
+    
+}
+@media (max-width: 991px){
+    .sub-menu{
+        display: none;
+    }
+    .header .container .registration{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+        float: right;
+    }
+    .responsive-menu .fas{
+        font-size: 25px;
+    }
+    .page .product .product-list{
+        width: 450px;
+        margin: 0 auto;
+    }
+    .product .product-container{
+        padding: 0;
+    }
+    .product{
+        padding-bottom: 31px;
+    }
+    .trasted{
+        padding-bottom: 20px;
+    }
+    .industry{
+        padding: 23px 0;
+    }
+    
+    
+}
+@media (max-width: 767px){
+    .responsive-menu .fa-bars{
+        font-size: 33px;
+    }
+    .banner .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner .container form{
+        max-width: none;
+    }
+    .benefits{
+        margin-top: 21px;
+    }
+    .benefits .benefit-text{
+        text-align: center;
+        padding: 37px 0;
+    }
+    .benefit-title h1{
+        margin-bottom: 49px;
+    }
+    .benefit-btn{
+        justify-content: center;
+    }
+    .benefits .benefits-list .list {
+        border: none;
+        padding-bottom: 55px;
+    }
+    .power{
+        padding: 30px 0;
+    }
+    .owl-carousel .item{
+        margin: 0 auto;
+    }
+    .ecosystem{
+        padding: 10px 0;
+    }
+    .for_page .page .ecosystem .container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .demo{
+        padding: 51px 0;
+    }
+    .social .container .p-wrap{
+        padding: 4px 0;
+    }
+}
+@media (max-width: 576px){
+    .header .reg-none{
+        display: none;
+    }
+    .banner .banner-text h1{
+        font-size: 41px;
+    }
+    .banner .container{
+        padding: 0 20px;
+    }
+    .demo .container .form{
+        max-width: 300px;
+    }
+    .brands .container{
+        padding: 0 60px;
+    }
+    .benefits .benefits-list .list{
+        padding-bottom: 15px;
+    }
+    .benefits .benefit-text .benefit-title h1{
+        margin-bottom: 48px;
+    }
+    .power .power-btns .power-btn{
+        margin-right: 0;
+    }
+    
+    
+}
+@media( max-width: 460px){
+    .power-btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .power-btn{
+        margin-bottom: 10px;
+    }
+    .page .product .product-list{
+        width: 335px;
+    }
+}
+@media (max-width: 400px){
+   .benefits .benefit-text .benefit-btn{
+       display: -webkit-box;
+   }
+   .commerce{
+       padding: 22px 0;
+   }
+   .product{
+       padding-top: 15px;
+   }
+}

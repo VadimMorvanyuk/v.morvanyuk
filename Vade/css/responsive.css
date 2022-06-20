@@ -1,0 +1,142 @@
+/* responsive*/
+@media (min-width: 1200px){
+    .for_page .container{
+        max-width: 1240px;
+    }
+    
+}
+@media (max-width: 1200px){
+    .responsive-menu{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .menu{
+        justify-content: space-around;
+    }
+    .banner-title h1{
+        font-size: 65px;
+    }
+    .power-title h1{
+        font-size: 75px;
+    }
+    .power-title{
+        margin-bottom: 67px;
+    }
+    .graphics{
+        padding-bottom: 87px;
+    }
+    .owl-carousel{
+        margin-bottom: -200px;
+    }
+    .leaders{
+        padding-bottom: 86px;
+    }
+    .blog{
+        padding: 43px 0;
+    }
+    .connect{
+        padding: 58px 0;
+    }
+    .footer{
+        padding: 19px 0;
+    }
+    .company{
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .position{
+        width: 100%;
+    }
+}
+@media (max-width: 991px){
+    .banner-title h1{
+        font-size: 51px;
+    }
+    .leaders-agency h2{
+        font-size: 22px;
+    }
+    .power-title h1{
+        font-size: 58px;
+    }
+    .post{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .blog-title{
+        text-align: center;
+    }
+    .post-text{
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .post h3, p{
+        margin: 0 auto;
+    }
+    .post h3{
+        margin-top: 10px;
+    }
+    .postBtn{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .find{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 767px){
+    .logo{
+        text-align: center;
+    }
+    .banner-title h1{
+        padding-bottom: 35px;
+    }
+    .technology-item{
+        text-align: center;
+    }
+    .technology{
+        padding: 30px 0;
+    }
+    .power-title{
+        max-width: none;
+    }
+    .power{
+        text-align: center;
+    }
+    .power2{
+        float: none;
+    }
+    .headerBtn{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .banner{
+        text-align: center;
+    }
+    .banner-title h1{
+        font-size: 38px;
+    }
+    .banner-text p{
+        max-width: none;
+    }
+    .cookies{
+        display: none;
+    }
+    .technology-text h1{
+        font-size: 38px;
+    }
+    .graphics-title h1{
+        font-size: 38px;
+    }
+    .leaders-title h1{
+        font-size: 38px;
+    }
+    .power-title h1{
+        font-size: 41px;
+    }
+}

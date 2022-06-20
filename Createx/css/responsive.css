@@ -1,0 +1,274 @@
+@media (min-width: 1200px){
+    .for_page .container{
+        max-width: 1300px;
+    }
+    
+}
+@media (max-width: 1200px){
+    .team .owl-carousel .owl-nav.disabled{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .login .responsive-menu .fa-bars{
+        display: block;
+        z-index: 3;
+    }
+    .banner-title{
+        font-size: 51px;
+    }
+    .banner{
+        padding-top: 56px;
+        padding-bottom: 97px;
+    }
+    .stats .item-stats:after{
+        display: none;
+    }
+    .about{
+        padding: 87px 0;
+    }
+    .courses{
+        padding-bottom: 62px;
+    }
+    .course-info{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .courses .course .course-img img{
+        width: 100%;
+    }
+    .course{
+        display: block;
+        text-align: center;
+    }
+    .course-info{
+        margin: 0 auto;
+    }
+    .TabsProf .nav-tabs{
+        justify-content: space-between;
+    }
+    .TabsProf .nav-tabs .nav-item{
+        margin-bottom: 5px;
+    }
+    .tab-text{
+        margin-top: 105px;
+    }
+    .events{
+        padding-top: 152px;
+        padding-bottom: 36px;
+    }
+    .event-btn{
+        width: 180px;
+    }
+    .team{
+        padding-bottom: 15px;
+    }
+    .our-team{
+        padding-bottom: 54px;
+    }
+    .owl-dots{
+        margin-top: 30px;
+    }
+    .blog{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+@media (max-width: 991px){
+    .banner{
+        padding-top: 36px;
+        padding-bottom: 30px;
+    }
+    .banner-title{
+        font-size: 21px;
+        
+    }
+    .banner-buttons{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .banner-btn:first-child{
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+    .banner-img{
+        width: 110%;
+    }
+    .stats{
+        padding-bottom: 6px;
+    }
+    .about{
+        padding: 40px 0;
+    }
+    .course{
+        max-width: 350px;
+    }
+    .TabsProf .nav-tabs .nav-item{
+        margin-bottom: 8px;
+    }
+    .tab-text{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .event-info{
+        max-width: 300px;
+    }
+    .events-list{
+        padding: 22px 0;
+    }
+    #carousel_testimonials .item{
+        padding: 29px 44px;
+    }
+    #carousel_testimonials .item-child{
+        padding: 0px 13px;
+    }
+    .item-child .braces img{
+        left: -27px;
+    }
+    .post-info ul{
+        justify-content: space-evenly;
+    }
+    .post-img{
+        display: flex;
+        justify-content: center;
+    }
+    .post-name img{
+        left: 180px;
+    }
+    .post{
+        margin-bottom: 20px;
+    }
+    .footer h4, .footer li{
+        font-size: 13px;
+    }  
+}
+@media (max-width:767px){
+    .menu{
+        justify-content: center;
+    }
+    .stats{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .banner-buttons{
+        display: block;
+    }
+    .banner-img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .course{
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    .events-list{
+        padding: 30px 0;
+    }
+    .TabsProf .nav-tabs{
+        justify-content: center;
+    }
+    .illustration img:nth-child(2){
+        display: none;
+    }
+    .illustration{
+        justify-content: center;
+    }
+    .subscribe{
+        padding-top: 32px;
+    }
+    .sub{
+        flex-wrap: wrap;
+    }
+    .subscribeBtn{
+        margin-top: 10px;
+    }
+    .footer-social{
+        margin-bottom: 25px;
+    }
+    .btn-login{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    .responsive-menu{
+        margin-top: 13px;
+    }
+    .login{
+        justify-content: end;
+    }
+}
+@media (max-width:500px){
+    .stats{
+        flex-direction: column;
+    }
+}
+@media (max-width:576px){
+    .event-btn{
+        margin-top: 10px;
+    }
+    .contact-us-footer{
+        margin-left: 12px;
+    }
+    .sign-up-footer input::placeholder{
+        
+        background:none
+    }
+}
+@media (max-width:480px){
+    .subscribe-input{
+        padding-right: 152px;
+    }
+}
+@media (max-width:400px){
+    .btn-login{
+        padding: 0px 24px;
+    }
+    .banner-btn:last-child{
+        padding: 16px 8px;
+    }
+    .banner-btn:first-child{
+        margin-right: 10px;
+    }
+    .certificate-text h1{
+        font-size: 36px;
+    }
+    .about-text h1{
+        font-size: 38px;
+    }
+    .courses-title h1{
+        font-size: 36px;
+    }
+    .courses-title {
+        flex-direction: column;
+        
+    }
+    .course-title{
+        text-align: center;
+    }
+    .benefits-title h1{
+        font-size: 36px;
+    }
+    .events-title h1{
+        font-size: 35px;
+    }
+    .team h2{
+        font-size: 26px;
+    }
+    .testimonials-title h1{
+        font-size: 34px;
+    }
+    .subscribe-title h1{
+        font-size: 36px;
+    }
+}}

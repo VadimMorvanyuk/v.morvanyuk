@@ -1,0 +1,182 @@
+/*responsive*/
+@media (min-width: 1200px){
+    .for_page .container{
+        max-width: 1180px;
+    }
+    
+}
+@media (max-width:1200px){
+    
+}
+@media (max-width:991px){
+    .nav-menu{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+    }
+    .banner-text h1{
+        font-size: 93px;
+    }
+    .banner-text span{
+        font-size: 179px;
+    }
+    .services{
+        padding-top: 711px;
+        padding-bottom: 10px;
+    }
+    .services-title{
+        margin-bottom: 70px;
+    }
+    .portfolio-title{
+        padding: 50px 0;
+    }
+    .creative{
+        padding-top: 44px;
+        padding-bottom: 46px;
+    }
+    .creative-title {
+        padding-bottom: 30px;
+    }
+    .client{
+        padding: 39px 0;
+    }
+    .team{
+        padding: 40px 0;
+    }
+    .team-title{
+        margin-bottom: 40px;
+    }
+    .person{
+        max-width: 371px;
+        margin: 0 auto;
+        margin-bottom: 23px;
+    }
+    .join{
+        padding-top: 57px;
+        padding-bottom: 72px;
+    }
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 22px;
+    }
+    .hover_galery .text_galery{
+        display: none;
+    }
+   .img_galery .hover_galery{
+        padding-top: 36px;
+    }
+
+}
+@media (max-width:767px){
+    .logo{
+        text-align: center;
+    }
+    .header{
+        padding-top: 44px;
+    }
+    .banner-text h1{
+        font-size: 81px;
+
+    }
+    .banner-text span{
+        font-size: 147px;
+    }
+    .banner{
+        padding-top: 213px;
+        padding-bottom: 97px;
+    }
+    .services{
+        padding-top: 486px;
+    }
+    .page .portfolio .nav-tabs{
+        border-bottom: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-item{
+        margin-top: 20px;
+    }
+    .title_galery{
+        font-size: 24px;
+    }
+    .img_galery .hover_galery{
+        padding-top: 24px;
+    }
+    .for_page .page #carousel_client  .owl-item img{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .mail-footer{
+        padding-right: 117px;
+    }
+    .service{
+        margin-bottom: 44px;
+    }
+    .tab-content{
+        padding: 0 35px;
+    }
+    .img_galery1{
+        width: 100%;
+    }
+    .galery_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .img_galery2{
+        flex-wrap: wrap;
+    }
+    .img_galery3{
+        flex-wrap: wrap;
+    }
+    .img_galery{
+        width: 100%;
+    }
+    
+}
+@media (max-width:576px){
+    .header .container{
+        border: none;
+    }
+    .banner-text h1{
+        font-size: 68px;
+    }
+    .banner-text span{
+        font-size: 117px;
+    }
+    .img_galery .hover_galery{
+        padding-top: 1px;
+    }
+    .title_galery{
+        font-size: 17px;
+        padding-bottom: 0;
+    }
+    .mail-footer{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:420px){
+    .banner-text h1{
+        font-size: 58px;
+    }
+    .banner-text span{
+        font-size: 94px;
+    }
+    .services{
+        padding-top: 377px;
+    }
+    .portfolio-title{
+        padding: 12px 0;
+    }
+    .client-title p{
+        margin-bottom: 53px;
+    }
+    .team{
+        padding: 13px 0;
+    }
+    .join{
+        padding-top: 31px;
+        padding-bottom: 36px;
+    }
+}

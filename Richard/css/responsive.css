@@ -1,0 +1,124 @@
+/* responsive */
+@media (min-width: 1200px){
+    .for_page .container{
+        max-width: 1180px;
+    }
+    
+}
+@media (max-width: 1199px){
+    .banner-text h1{
+        font-size: 71px;
+    }
+    .banner-text h3{
+        font-size: 26px;
+    }
+    .img-banner{
+        bottom: 109px;
+    }
+    .block5{
+        padding: 65px 0;
+    }
+}
+@media (max-width: 991px){
+    .banner-text{
+        padding-bottom: 219px;
+    }
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .banner-text h3{
+        font-size: 22px;
+    }
+    .block6{
+        padding-bottom: 71px;
+    }
+    .block6-text{
+        max-width: none;
+        text-align: center;
+    }
+    .block6 .container .img-wrapper{
+        text-align: center;
+    }
+    .block7 .container .img-wrapper{
+        order: 2;
+        text-align: center;
+    }
+    .block7-text{
+        text-align: center;
+        max-width: none;
+    }
+    .block7{
+        padding-bottom: 80px;
+    }
+    #carousel{
+        padding-bottom: 70px;
+    }
+}
+@media (max-width: 767px){
+    .img-banner{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+        color: white;
+        font-size: 37px;
+    }
+    .banner{
+        padding-top: 146px;
+    }
+    .banner-text{
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    .block1-text{
+        text-align: center;
+    }
+    .block1-text h2{
+        max-width: none;
+    }
+    .block1-text p{
+        max-width: none;
+    }
+    .block1{
+        padding-bottom: 55px;
+    }
+    .block-img{
+        text-align: center;
+    }
+    .img-wrapper{
+        order: 2;
+    }
+    .block2-text{
+        text-align: center;
+        max-width: none;
+    }
+    .block2{
+        padding-bottom: 80px;
+    }
+    .block3-text{
+        text-align: center;
+        max-width: none;
+    }
+    .block3{
+        padding-bottom: 70px;
+    }
+    .block4-text{
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 576px){
+    .download .button{
+        padding:  20px 33px;
+    }
+    .footer .links{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .links a{
+        margin: 10px;
+    }
+}
