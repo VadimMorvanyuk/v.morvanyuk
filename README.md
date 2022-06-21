@@ -2,9 +2,9 @@
 <h1 align="center">Hi 👋, I'm Vadim Morvanyuk</h1>
 <h3 align="center">A frontend developer from Ukraine</h3>
 
-<h3 align="left">Connect with me:
-Email: vadim.morvanyuk@gmail.com
-Telegram: https://t.me/Epsilon_17</h3>
+<h3 align="left">Connect with me:</h3>
+<p>Email: vadim.morvanyuk@gmail.com</p>
+<p>Telegram: https://t.me/Epsilon_17</p>
 <p align="left">
 </p>
 
