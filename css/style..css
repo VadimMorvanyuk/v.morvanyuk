@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: rgb(53, 206, 206);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;color: #fff;
+    transition: 0.4s;
+
+}
+li a:hover{
+    background-color: rgb(43, 151, 151);
+    transform: scale(1.1);
+}
