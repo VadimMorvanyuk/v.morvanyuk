@@ -105,6 +105,9 @@
     .signup-footer{
         margin-left: 0;
     }
+    .modal-window{
+        top: 60%;
+    }
 }
 @media (max-width: 576px){
     .logo{
@@ -123,6 +126,9 @@
         display: none;
     }
     .theme{
+        display: none;
+    }
+    .modal-window{
         display: none;
     }
 }

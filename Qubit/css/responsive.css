@@ -63,6 +63,9 @@
     .industry{
         padding: 23px 0;
     }
+    .modal-window{
+        display: none;
+    }
     
     
 }

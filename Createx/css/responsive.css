@@ -207,6 +207,9 @@
     .login{
         justify-content: end;
     }
+    .modal-window{
+        display: none;
+    }
 }
 @media (max-width:500px){
     .stats{

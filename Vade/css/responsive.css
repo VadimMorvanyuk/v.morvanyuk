@@ -113,6 +113,9 @@
     .headerBtn{
         display: none;
     }
+    .modal-window{
+        display: none;
+    }
 }
 @media (max-width: 576px){
     .banner{
