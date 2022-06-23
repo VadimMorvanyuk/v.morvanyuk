@@ -162,3 +162,14 @@
         font-size: 14px;
     }
 }
+@media (max-width: 370px){
+    .bannerBtn{
+        margin-right: 0;
+    }
+    .help1 span{
+       padding:  0px;
+    }
+    .help4 img{
+        margin-right: 0px;
+    }
+}
