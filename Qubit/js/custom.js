@@ -143,44 +143,5 @@ jQuery(document).ready(function () {
 		jQuery(".sideNav").toggleClass("active");
 		jQuery("body").toggleClass("lock");
 	});
-	let btn = jQuery('.btn-login');
-  let ModWindow = jQuery('.modal-window');
-  
-  jQuery('.link-item').click(function(){
-	  jQuery(this).addClass('active');
-	  jQuery('.link-item').not(this).removeClass('active');
-  })
-
-  jQuery('.btn-login').click(function(){
-	  jQuery('.modal-window').addClass('active');
-	  jQuery('.for_page').addClass('show-modal')
-	  jQuery('.bgModal').addClass('active')
-  })
-
-  jQuery('.modal-close').click(function(){
-	  jQuery('.modal-window').removeClass('active');
-	  jQuery('.for_page').removeClass('show-modal')
-	  jQuery('.bgModal').removeClass('active')
-  })
-
-  jQuery('.modal-btn1').click(function(){
-	  jQuery('.modal-window').removeClass('active');
-	  jQuery('.for_page').removeClass('show-modal')
-	  jQuery('.bgModal').removeClass('active')
-  })
-
-  jQuery('.show-modal').click(function(){
-	  jQuery('.modal-window').removeClass('active');
-	  jQuery('.for_page').removeClass('show-modal')
-  })
-
-  jQuery(document).click(function(e) {
-	  if ( ! btn.is(e.target) && btn.has(e.target).length === 0 && ! ModWindow.is(e.target) && ModWindow.has(e.target).length === 0) {
-		  jQuery('.modal-window').removeClass('active')
-		  jQuery('.for_page').removeClass('show-modal')
-		  jQuery('.bgModal').removeClass('active')
-		  
-	  }
-  });
-  });
+})
 

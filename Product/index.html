@@ -27,11 +27,19 @@
         <a class="link-item" href="#">Pricing</a>
         <a class="link-item" href="#">Resources</a>
     </div>
-    <div class="bgModal"></div>
-    <div class="modal-window">   
-        <div class="modal-wrapper">
-            <h3>Sign In</h3>
-            <p>Sign in to your account using email and password provided during registration.</p>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>       
+          <h3>Sign In</h3>
+            <p>Sign in to your account using email and password provided during registration.</p></h5>  
+          </button>
+        </div>
+        <div class="modal-body">
             <form>
                 <label>Email</label>
                 <input type="email" class="emailInput" placeholder="Your working email">
@@ -43,12 +51,15 @@
                     <p class="forgot">Forgot password?</p>
                 </div>
             </form>
-            <a href="#" class="modal-close">X</a>
+        </div>
+        <div class="modal-footer">
             <div class="btn-modal">
                 <a href="#" class="modal-btn1">Sign In</a>
             </div>
-        </div>  
+        </div>
+      </div>
     </div>
+  </div>
     <div class="for_page">
         <div class="page">
             <!-- HEADER -->
@@ -81,8 +92,8 @@
                         <div class="col-xl-4 col-lg-9 col-md-9 col-sm-9 col-2">
                             
                             <div class="sign">
-                                <a href="#" class="signIn">Sign In</a>
-                                <a href="#" class="signUp">Sign Up</a>
+                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="signIn">Sign In</a>
+                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="signUp">Sign Up</a>
                                 <div class="theme">
                                     <img src="img/change-theme.png" alt="theme">
                                 </div>

@@ -28,11 +28,19 @@
         <a class="link-item" href="#">portfolio</a>
         <a class="link-item" href="#">blog</a>
     </div>
-    <div class="bgModal"></div>
-    <div class="modal-window">   
-        <div class="modal-wrapper">
-            <h3>Sign In</h3>
-            <p>Sign in to your account using email and password provided during registration.</p>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>       
+          <h3>Sign In</h3>
+            <p>Sign in to your account using email and password provided during registration.</p></h5>  
+          </button>
+        </div>
+        <div class="modal-body">
             <form>
                 <label>Email</label>
                 <input type="email" class="emailInput" placeholder="Your working email">
@@ -44,12 +52,15 @@
                     <p class="forgot">Forgot password?</p>
                 </div>
             </form>
-            <a href="#" class="modal-close">X</a>
+        </div>
+        <div class="modal-footer">
             <div class="btn-modal">
                 <a href="#" class="modal-btn1">Sign In</a>
             </div>
-        </div>  
+        </div>
+      </div>
     </div>
+  </div>
     <div class="for_page">
         <div class="page">
             <div class="header-bg">
@@ -84,7 +95,7 @@
                                         </ul>
                                     </nav>
                                     <div class="headerBtn">
-                                        <a href="#" class="btnHeader">book a demo</a>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="btnHeader">book a demo</a>
                                     </div>
                                     <div class="responsive-menu">
                                         <i class="fas fa-bars"></i>

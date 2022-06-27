@@ -933,60 +933,16 @@ body.lock{
 /*burger*/
 
 /*modal*/
-.modal-window{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    display: block;
-    opacity: 0;
-    z-index: 5;
-    background: white;
-    border-radius: 5px;
-}
-.modal-window.active{
-    display: block;
-    opacity: 1;
-    transition: 0.5s;
-    z-index: 200;
-  }
-.modal-window{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    display: block;
-    opacity: 0;
-    z-index: 5;
-    background: white;
-    border-radius: 5px;
-  }
-  .modal-window.active{
-    display: block;
-    opacity: 1;
-    transition: 0.5s;
-  }
-  body{
-    position: relative;
-  }
-  .modal-wrapper{
-    padding: 30px;
-    position: relative;
-    border-radius: 7px;
-    background: #ffffff;
-  }
-  .modal-wrapper p{
+.modal p{
     color: #787A80;
     font-size: 14px;
     text-align: center;
   }
-  .emailInput::placeholder{
+  .modal .emailInput::placeholder{
     font-size: 14px;
     color: #9a9ca5;
   }
-  .passInput::placeholder{
+  .modal .passInput::placeholder{
     font-size: 14px;
     color: #9a9ca5;
   }
@@ -994,10 +950,10 @@ body.lock{
     color: #424551;
     font-size: 14px;
   }
-  .checkbox{
+  .modal .checkbox{
    max-width: 15px;
   }
-  .check{
+  .modal .check{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -1024,59 +980,56 @@ body.lock{
     outline: none;
     padding: 9px;
   }
-  .modal-wrapper h3{
+  .modal .modal-dialog .modal-content .modal-header  h3{
     font-size: 18px;
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
     padding-bottom: 20px;
     text-align: center;
   }
-  .btn-modal{
+  .modal .close{
+    outline: none;
+  }
+  .modal .forgot{
+    color: #FF3F3A;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .modal .modal-header{
+    display: block;
+    text-align: center;
+  }
+  .modal input{
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 9px;
+  }
+  .modal-content{
+    max-width: 373px;
+    margin: 0 auto;
+  }
+  .modal .modal-footer{
+    justify-content: center;
+  }
+  
+  .modal .btn-modal{
     justify-content: space-around;
     margin-top: 10px;
   }
-  .modal-btn1{
+  .modal .modal-btn1{
     border: solid 1px #BCD0E5;
     border-radius: 4px;
-    padding: 9px 119px;
+    padding: 9px 117px;
     text-decoration: none;
     background: #FF3F3A;
     color: white;
     transition: 0.5s;
     max-width: 100%;
   }
-  .modal-btn1:hover{
+  .modal .modal-btn1:hover{
     text-decoration: none;
-    background: #ff3f3a;
+    background: #FF3F3A;
     color: white;
   }
-  .modal-btn2{
-    border: solid 1px #6F2CFF;
-    padding: 8px 33px;
-    border-radius: 10px;
-    transition: 0.5s;
-    background: #6F2CFF;
-    color: white;
-  }
-  .modal-btn2:hover{
-    background: #2a0085;
-    color: white;
-    text-decoration: none;
-  }
-  .bgModal{
-    display: none; 
-    opacity: 0.8; 
-    position: fixed; 
-    left: 0; 
-    right: 0; 
-    top: 0; 
-    bottom: 0; 
-    padding: 16px; 
-    background-color: rgba(1, 1, 1, 0.8); 
-    z-index: 100; 
-    overflow: auto; 
-}
-.bgModal.active{
-    display: block;
-}
   
