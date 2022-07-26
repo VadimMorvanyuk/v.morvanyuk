@@ -142,4 +142,7 @@
     .power-title h1{
         font-size: 41px;
     }
+    .blog .container{
+        padding: 0 30px;
+    }
 }
