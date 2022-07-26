@@ -171,11 +171,18 @@
 @media (max-width: 370px){
     .bannerBtn{
         margin-right: 0;
+        padding: 15px 15px;
     }
     .help1 span{
        padding:  0px;
     }
     .help4 img{
         margin-right: 0px;
+    }
+    .help span{
+        font-size: 11px;
+    }
+    .help2 span, .help3 span, .help4 span{
+        font-size: 11px;
     }
 }
