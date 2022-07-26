@@ -275,3 +275,11 @@
         font-size: 36px;
     }
 }}
+@media (max-width: 360px){
+    .banner-btn:first-child{
+        padding: 16px 23px;
+    }
+    .subscribe .subscribe-input{
+        padding-right: 101px;
+    }
+}
