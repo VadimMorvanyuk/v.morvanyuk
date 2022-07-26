@@ -122,3 +122,11 @@
         margin: 10px;
     }
 }
+@media (max-width: 360px){
+    .banner-text h1{
+        font-size: 45px;
+    }
+    .updates button{
+        width: 37%;
+    }
+}
