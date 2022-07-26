@@ -180,3 +180,14 @@
         padding-bottom: 36px;
     }
 }
+@media (max-width: 360px){
+    .services-title{
+        margin-bottom: 33px;
+    }
+    .services-title h2{
+        font-size: 1rem;
+    }
+    .mail-footer{
+        padding-right: 87px;
+    }
+}
