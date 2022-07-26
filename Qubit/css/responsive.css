@@ -171,3 +171,17 @@
        padding-top: 15px;
    }
 }
+@media (max-width: 370px){
+    .banner .banner-text form input {
+        padding: 0px 22px;
+    }
+    .banner .banner-text form .btn-banner {
+        padding: 0 18px;
+    }
+    .benefits .benefit-text .benefit-btn .btn-benefit{
+        padding: 8px 11px;
+    }
+    .commerce .commerce-title{
+        text-align: center;
+    }
+}
