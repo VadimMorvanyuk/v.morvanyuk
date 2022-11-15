@@ -1,0 +1,493 @@
+@media (max-width: 1600px){
+    .zoo-title h3{
+        margin-top: 27px;
+        margin-bottom: 12px;
+    }
+    .zoo-title p{
+        margin-top: 0;
+    }
+   .pick-diet h3{
+    margin-top: 100px;
+   }
+   .zoo .information h3{
+    margin-top: 27px;
+   }
+   .x{
+    margin-top: 57px;
+    margin-left: 11px;
+   }
+   .amount{
+    margin-top: 44px;
+   }
+   .amount .form{
+    justify-content: space-between;
+   }
+   .form_radio label{
+    padding-left: 68px;
+   }
+   .form_radio label:before{
+    left: 31px;
+   }
+   .another-wrap{
+    margin-top: 94px;
+   }
+   .another-wrap input{
+    padding: 16px 52px;
+   }
+   .pick .container{
+    padding: 3px 100px 43px 92px;
+   }
+   .another-btn{
+    margin-top: 21px;
+   }
+   .footer-autor{
+    margin-top: 200px;
+   }
+   .form .form_radio:first-child{
+    display: none;
+   }
+   .form:after{
+    width: 93%;
+    left: 38px;
+   }
+}
+@media (max-width: 1280px){
+    .form{
+        width: 731px;
+    }
+    .form:after{
+        width: 90%;
+        left: 40px;
+    }
+    .banner .panda-big{
+        display: none;
+    }
+    .banner .panda-small{
+        display: block;
+    }
+    .zoo-title h3{
+        max-width: 778px;
+        margin-top: 35px;
+        margin-bottom: 37px;
+    }
+    .zoo .information{
+        margin-bottom: 40px;
+    }
+    .pick-title h2{
+        margin-top: 17px;
+    }
+    .pick-diet h3{
+        margin-top: 71px;
+    }
+    .x{
+        margin-top: 30px;
+        margin-right: 70px;
+    }
+    .amount{
+        margin-top: 29px;
+    }
+    .form_radio label:before{
+        left: 12px;
+    }
+    .form_radio label{
+        padding-left: 117px;
+    }
+    .amount .form{
+        justify-content: initial;
+    }
+    .radio-btns{
+        width: 231px;
+    }
+    .zoo{
+        padding-bottom: 17px;
+    }
+    .radio-btns .form_radio label{
+        padding-left: 39px;
+    padding-right: 40px
+    }
+    .form:after{
+        width: 96%;
+        left: 20px;
+    }
+    .pick-title p{
+        margin-bottom: 1px;
+    }
+    .nav li{
+        margin-right: 48px;
+     }
+     .container{
+      max-width: 940px;
+     }
+     .header{
+        z-index: 5;
+        position: relative;
+       }
+       .input-border{
+        display: none;
+     }
+     .footer-subscribe input{
+        border: solid 1px orange;
+     }
+     .footer-item{
+        margin-right: 49px;
+     }
+     .footer-links{
+        margin-left: 0;
+        padding-left: 7px;
+     }
+     .footer-autor{
+        margin-top: 290px;
+        margin-left: 19px;
+     }
+     .footer-input{
+        position: absolute;
+        right: 71px;
+        margin-top: 52px;
+     }
+     .footer-subscribe h2{
+        position: absolute;
+        right: 193px;
+     }
+
+}
+@media (max-width: 999px){
+    .container{
+        max-width: 700px;
+     }
+     .nav li{
+        margin-right: 36px;
+     }
+     .form{
+        width: 562px;
+     }
+     .form_radio label {
+        padding-left: 89px;
+    }
+    .form:after{
+        width: 95%;
+    }
+     
+}
+@media (max-width: 767px){
+    .pick .container{
+        padding: 1px 20px 43px 20px;
+    }
+    .form{
+        width: 500px;
+     }
+     .amount .form_radio label{
+        padding-left: 79px;
+     }
+     .amount .form .form_radio:nth-child(2){
+        display: none;
+     }
+     .amount .form .form_radio:nth-child(3){
+        display: none;
+    }
+    .amount .form_radio label{
+        padding-left: 98px;
+    }
+    .banner .panda-small{
+        display: none;
+    }
+    .banner .panda-tablet{
+        display: block;
+    }
+    .zoo .zoo-title h3{
+        font-size: 22px;
+    }
+    .zoo-title h3{
+        margin-top: 58px;
+        margin-bottom: 18px;
+    }
+    .zoo .information h3{
+        margin-top: 13px;
+    }
+    .zoo .information{
+        margin-bottom: 29px;
+    }
+    .pick-title h2{
+        margin-top: 29px;
+    }
+    .form:after{
+        width: 93%;
+    }
+    .form{
+        width: 420px;
+    }
+    .header{
+        position: fixed;
+        width: 100%;
+     }
+     .header .container{
+        position: relative;
+     }
+     .logo span:before{
+        left: 0px;
+        top: -10px;
+     }
+     .header .nav{
+        display: none;
+     }
+     .designed{
+        display: none;
+     }
+     .burger-menu{
+        display: block;
+     }
+     .header .logo{
+        border: none;
+     }
+     .footer-subscribe h2{
+        display: none;
+     }
+     .footer-subscribe .footer-input{
+        display: none;
+     }
+     .footer-social li a{
+        display: none;
+     }
+     .footer-social .social-item{
+        margin-bottom: 16px;
+     }
+     .header .logo p{
+        font-size: 12.29px;
+     }
+     .header{
+        padding: 0;
+     }
+     .footer{
+        padding-top: 14px;
+        padding-bottom: 261px;
+     }
+     .footer .container{
+        position: relative;
+     }
+     .footer-autor{
+        position: absolute;
+        right: -1px;
+        top: 82px;
+        margin-top: 118px;
+     }
+     .footer-social{
+        position: absolute;
+        top: -6px;
+        right: -11px;
+     }
+     .footer .logo{
+        position: absolute;
+        top: 0px;
+     }
+     .footer-btn{
+        position: absolute;
+        top: 15px;
+     }
+     .footer-nav{
+        position: absolute;
+        bottom: 0px;
+        top: 235px;
+        left: -41px;
+     }
+     .footer-item{
+        margin-right: 38px;
+     }
+     .container{
+        max-width: 600px;
+     }
+     .footer-links{
+        margin-top: 5px;
+        margin-left: 34px;
+     }
+}
+@media (max-width: 638px){
+    .header{
+        position: fixed;
+        width: 100%;
+     }
+     .header .container{
+        position: relative;
+     }
+     .container{
+        max-width: 400px;
+     }
+     .form {
+        width: 336px;
+    }
+     .amount .form_radio label{
+        padding-left: 76px;
+     }
+     .form:after{
+        width: 90%;
+     }
+}
+@media (max-width: 440px){
+    .animal-big{
+        display: none;
+    }
+    .animal-small{
+        display: block;
+    }
+    .zoo .information h3{
+        font-size: 24px;
+    }
+    .pick-title h2{
+        font-size: 24px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+    .pick-diet p{
+        font-size: 9.02px;
+    }
+    .pick-diet h3{
+        margin-top: 56px;
+    }
+    .pick-wrap .x img{
+        width: 7px;
+        height: 7px;
+    }
+    .pick-wrap .x{
+        margin-right: 30px;
+    }
+    .pick-title p{
+        font-size: 16px;
+    }
+    .banner .panda-tablet{
+        display: none;
+    }
+    .panda-mobile{
+        display: block;
+    }
+    .form_radio p{
+        font-size: 13px;
+    }
+    .dollar{
+        display: none;
+    }
+    .small-dollar{
+        display: block;
+    }
+    .amount .form_radio label{
+        padding-left: 57px;
+    }
+    .amount .form{
+        width: 256px;
+    }
+    .pick-diet h3{
+        font-size: 40.6px;
+    }
+    .amount p{
+        margin-top: 18px;
+    }
+    .amount{
+        margin-top: 0px;
+    }
+    .amount p{
+        margin-bottom: 2px;
+    }
+    .another-wrap{
+        margin-top: 32px;
+    }
+    .amount .form_radio label{
+        padding-left: 57px;
+    }
+    .another-btn a{
+        padding: 11px 46px;
+    }
+    .pick .container{
+        padding: 1px 20px 0px 20px;
+    }
+    .another-wrap input {
+        padding: 10px 5px;
+    }
+    .another-btn p{
+        margin-bottom: -8px;
+    }
+    .form .form_radio label img{
+        top: 16px;
+        left: 7px;
+    }
+    .container{
+        max-width: 300px;
+     }
+     .footer-links{
+        padding-left: 1px;
+        margin-top: 0px;
+        margin-left: -1px;
+     }
+     .footer .logo h1{
+        display: none;
+     }
+     .footer .logo{
+        border: none;
+        max-width: none;
+     }
+     .footer .logo h2{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+     }
+     .footer .logo h2:after{
+        content: url(../../assets/icons/bamboo.png);
+        position: absolute;
+        top: 13px;
+        right: 47px;
+     }
+     .footer .logo{
+        top: -13px;
+        left: 27%;
+     }
+     .footer-social{
+        top: 51px;
+        right: 70px;
+     }
+     .social-list{
+        display: flex;
+     }
+     
+     .footer-social .social-item:nth-child(2){
+        margin-left: 49px;
+        margin-right: 21px;
+     }
+     .footer-social .social-item:nth-child(3){
+        margin-right: 16px;
+     }
+     .footer-social .social-item:last-child{
+        margin-left: 35px;
+        margin-right: -28px;
+     }
+     .footer-btn{
+        top: 48px;
+     }
+     .footer-autor a{
+        font-size: 15px;
+     }
+     .footer-autor{
+        right: -2px;
+        top: 70px;
+     }
+     .footer-nav{
+        top: 277px;
+        left: 11px;
+     }
+     .footer{
+        padding-bottom: 327px;
+     }
+     .footer-item:last-child{
+        margin-right: 0px;
+     }
+     .footer-item{
+        margin-right: 31px;
+     }
+}
+
+@media(max-width: 400px){
+    .form:after{
+        width: 88%;
+        left: 15px;
+    }
+}
