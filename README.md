@@ -4,7 +4,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p>Email: vadim.morvanyuk@gmail.com</p>
-<p>Telegram: https://t.me/Epsilon_17</p>
+<p>Telegram: https://t.me/Morvaniuk</p>
 <p align="left">
 </p>
 
